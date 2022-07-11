@@ -20,6 +20,11 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
+  },
+
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: "https://www.123rf.com/photo_82718617_happy-school-children-in-front-of-school-building.html"
   }
 });
 
