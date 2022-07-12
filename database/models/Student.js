@@ -25,7 +25,7 @@ const Student = db.define("student", {
   imageUrl: {
     type: Sequelize.STRING,
     allowNull: true,
-    defaultValue: "https://www.seekpng.com/ipng/u2q8o0y3e6u2w7y3_graduate-cap-vector-student-icon/"
+    defaultValue: "/student.gif"
   },
 
   gpa: {
