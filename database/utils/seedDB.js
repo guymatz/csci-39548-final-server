@@ -23,7 +23,8 @@ const seedDB = async () => {
 	const dummy_campus3 = await Campus.create({
 		name: "Brooklyn College",
 		address: "2900 Bedford Ave, Brooklyn, NY 11210",
-		description: "This is a school in Brooklyn, New York."
+		description: "This is a school in Brooklyn, New York.",
+		imageUrl: "http://onwisconsin.uwalumni.com/content/uploads/2015/02/911_Vets_Flags11_1469.jpg"
 	});
 	
 	// Create a new student for a campus
@@ -36,7 +37,8 @@ const seedDB = async () => {
 	const dummy_student2 = await Student.create({
 		firstname: "Mary",
       lastname: "Johnson",
-		email: "mjohnson@hunter.edu"
+		email: "mjohnson@hunter.edu",
+		imageUrl: "https://epe.brightspotcdn.com/dims4/default/2efe12b/2147483647/strip/true/crop/505x343+5+0/resize/840x570!/format/webp/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F33%2F65%2F2cf4e49c23f62081c4471f685b92%2Fnetbooks.jpg"
 	});
 
 	// Add students to campuses
